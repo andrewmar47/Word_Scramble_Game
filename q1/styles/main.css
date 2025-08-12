@@ -1,0 +1,30 @@
+body {
+    background-color: lightskyblue;
+    color: black;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+div {
+    display: inline-block;
+    text-align: center;
+    margin: 2em 2em;
+    padding: 1em;
+    border: 0.25em solid black;
+    border-radius: 1em;
+    background-color: white;
+}
+
+.error {
+    color: red;
+}
+
+.hidden {
+    display: none;
+}
+
+div ul {
+    text-align: left;
+}

@@ -1,0 +1,61 @@
+body {
+    background-color: lightskyblue;
+    color: black;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+div, form#guess-box {
+    display: inline-block;
+    text-align: center;
+    margin: 2em 2em;
+    padding: 1em;
+    border: 0.25em solid black;
+    border-radius: 1em;
+    background-color: white;
+}
+
+div div {
+    background-color: lightskyblue;
+}
+
+div ul {
+    text-align: left;
+}
+
+table {
+    margin: 1em auto;
+}
+
+thead th {
+    background-color: black;
+    padding: 0.5em 1em;
+    color: white;
+    border-radius: 0.5em 0.5em 0 0;
+}
+
+tbody td {
+    background-color: white;
+    padding: 0.5em 1em;
+    text-align: center;
+}
+
+form#leaderboard-button {
+    display: block;
+    width: 4.5em;
+    margin: 0 auto;
+}
+
+.error {
+    color: red;
+}
+
+.correct {
+    color: green;
+}
+
+.hidden {
+    display: none;
+}
